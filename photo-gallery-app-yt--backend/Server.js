@@ -11,7 +11,7 @@ mongoose.set("strictQuery", false); // Suppress the Mongoose DeprecationWarning
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "http://13.51.238.63:3000",
     methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"], // Add DELETE to the allowed methods
     credentials: true,
   })
